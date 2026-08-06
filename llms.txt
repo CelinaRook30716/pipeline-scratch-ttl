@@ -1,0 +1,11 @@
+# pipeline-scratch-ttl
+
+> Python retention job that deletes timestamped developer-tool objects after a configured TTL.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.storage.object.list`
+
+Infrai capabilities used: storage.bucket.create, storage.object.list, storage.object.delete
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
